@@ -252,12 +252,16 @@ body {
     }
     #loadingBar {
         font-size: 10vh;
+        color: red;
     }
     #expriencePage {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+    .card {
+        display: inline-block;
     }
 }
 
