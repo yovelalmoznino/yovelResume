@@ -237,11 +237,56 @@ body {
     right: 20vw;
 }
 
+@media only screen and (min-width: 1200px) {
+    #loadingBar {
+        font-size: 3vw;
+        color: black;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #loadingBar {
+        font-size: 3vw;
+        color: yellow;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #loadingBar {
+        font-size: 3vw;
+        color: orange;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        overflow: visible;
+    }
+    #loadingBar {
+        font-size: 3vw;
+        color: red;
+    }
+    #expriencePage {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .card {
+        display: inline-block;
+    }
+}
+
+
 @media only screen and (max-width: 600px) {
     body {
         overflow: visible;
     }
     #loadingBar {
+        top: 20vh;
         font-size: 6vh;
         color: pink;
     }
@@ -256,27 +301,4 @@ body {
     }
 }
 
-@media only screen and (min-width: 600px) {
-    body {
-        overflow: visible;
-    }
-    #loadingBar {
-        font-size: 10vh;
-        color: red;
-    }
-    #expriencePage {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-    .card {
-        display: inline-block;
-    }
-}
 
-@media only screen and (min-width: 1200px) {
-    #loadingBar {
-        font-size: 3vw;
-    }
-}
