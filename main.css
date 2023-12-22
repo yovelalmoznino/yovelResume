@@ -290,12 +290,6 @@ body {
         font-size: 6vh;
         color: pink;
     }
-    #expriencePage {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-items:center;
-    }
     .card {
         display: block;
     }
