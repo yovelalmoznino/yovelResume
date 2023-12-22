@@ -294,10 +294,10 @@ body {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-items:center;
     }
     .card {
-        display: inline-block;
+        display: block;
     }
 }
 
