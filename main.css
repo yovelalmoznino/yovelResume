@@ -253,6 +253,12 @@ body {
     #loadingBar {
         font-size: 10vh;
     }
+    #expriencePage {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
