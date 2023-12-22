@@ -292,6 +292,7 @@ body {
     }
     .card {
         display: block;
+        width: 70vw;
     }
 }
 
