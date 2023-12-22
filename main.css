@@ -239,17 +239,17 @@ body {
 
 @media only screen and (max-width: 600px) {
     #loadingBar {
-        font-size: 3vh;
+        font-size: 6vh;
     }
 }
 
 @media only screen and (min-width: 600px) {
     #loadingBar {
-        font-size: 5vh;
+        font-size: 10vh;
     }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
     #loadingBar {
         font-size: 3vw;
     }
