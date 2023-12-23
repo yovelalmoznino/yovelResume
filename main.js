@@ -2,7 +2,10 @@ const PAGES = ["aboutMe", "army", "exprience", "studies", "volunteering"];
 let activePage = "aboutMe";
 window.addEventListener("load", () => {
     screen.orientation.addEventListener("change", function(e) {
-        location.reload();
+        document.styleSheets[0].href = "./main.css";
+        if(window.innerWidth <= 600 || (window.innerWidth >= 768 && window.innerWidth <= 992)){
+            document.getElementById("contactBtn").style.visibility = "visible";
+        }
     });
     loading();
     navBarInit();
