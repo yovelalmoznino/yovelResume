@@ -1,12 +1,12 @@
 const PAGES = ["aboutMe", "army", "exprience", "studies", "volunteering"];
 let activePage = "aboutMe";
 window.addEventListener("load", () => {
-    screen.orientation.addEventListener("change", function(e) {
+    screen.orientation.addEventListener("change", function (e) {
         document.styleSheets[0].href = "./main.css";
-        if(screen.orientation.type == "portrait-primary"){
+        if (screen.orientation.type == "portrait-primary") {
             document.getElementById("contactBtn").style.visibility = "visible";
         } else {
-            document.getElementById("contactBtn").style.visibility = "hidden";   
+            document.getElementById("contactBtn").style.visibility = "hidden";
         }
     });
     loading();
@@ -26,7 +26,7 @@ let loading = () => {
             document.getElementById("loadingScreen").style.display = "none";
             document.getElementById("nav-bar").style.visibility = "visible";
             document.getElementById("contactInfo").style.visibility = "visible";
-            if(screen.orientation.type == "portrait-primary"){
+            if (screen.orientation.type == "portrait-primary") {
                 document.getElementById("contactBtn").style.visibility = "visible";
             }
             document.getElementById(`${activePage}Page`).style.visibility = "visible";
@@ -64,35 +64,29 @@ let contactInfoInit = () => {
 }
 
 let initDegreesClick = () => {
-    document.getElementById("idf").addEventListener("click", ()=>{
+    document.getElementById("idf").addEventListener("click", () => {
         document.getElementById("pdfView").style.visibility = "visible";
-            document.getElementById("idfPdf").style.visibility = " visible";
-            document.getElementById("idfPdf").src = "https://drive.google.com/file/d/13j9QZAXabKxk30nJ-dD34IM2ihuzzwE9/preview";
+        document.getElementById("idfPdf").style.visibility = " visible";
     });
-    document.getElementById("magshimim").addEventListener("click", ()=>{
-        alert("magsimim");
+    document.getElementById("magshimim").addEventListener("click", () => {
         document.getElementById("pdfView").style.visibility = "visible";
-            document.getElementById("magshimimPdf").style.visibility = " visible";
-            document.getElementById("magshimimPdf").src = "https://drive.google.com/file/d/1ePoNerPD9eCPU4Tmush9txodvchzan78/preview";
+        document.getElementById("magshimimPdf").style.visibility = " visible";
     });
-    document.getElementById("project").addEventListener("click", ()=>{
+    document.getElementById("project").addEventListener("click", () => {
         document.getElementById("pdfView").style.visibility = "visible";
-        alert("project")
-            document.getElementById("projectPdf").style.visibility = " visible";
-            document.getElementById("projectPdf").src = "https://drive.google.com/file/d/1d6V_Dhz5WZ_T4SX2zmqC1wzhdtTUsOpv/preview";
+        document.getElementById("projectPdf").style.visibility = " visible";
     });
-    document.getElementById("bagrut").addEventListener("click", ()=>{
+    document.getElementById("bagrut").addEventListener("click", () => {
         document.getElementById("pdfView").style.visibility = "visible";
-            document.getElementById("bagrutPdf").style.visibility = " visible";
-            document.getElementById("bagrutPdf").src = "https://drive.google.com/file/d/1vxepqEZkFQ4XiKKbjn7Ik6acVr_CjmRL/preview";
+        document.getElementById("bagrutPdf").style.visibility = " visible";
     });
 }
 
 let initCloseBtn = () => {
-    document.getElementById("closeBtn").addEventListener("click", ()=>{
+    document.getElementById("closeBtn").addEventListener("click", () => {
         document.getElementById("pdfView").style.visibility = "hidden";
         let pdfs = ["idf", "magshimim", "project", "bagrut"];
-        for(let i = 0; i<pdfs.length; i++){
+        for (let i = 0; i < pdfs.length; i++) {
             document.getElementById(`${pdfs[i]}Pdf`).style.visibility = "hidden";
         }
     })
