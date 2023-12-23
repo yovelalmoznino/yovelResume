@@ -242,6 +242,7 @@ body {
     right: 20vw;
 }
 
+.accordion-body,
 .card-text {
     font-size: 1.5vw;
 }
@@ -303,8 +304,9 @@ body {
         display: block;
         width: 70vw;
     }
+    .accordion-body,
     .card-text {
-        font-size: 3vh;
+        font-size: 2vh;
     }
 }
 
