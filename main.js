@@ -18,7 +18,7 @@ let loading = () => {
             document.getElementById("loadingScreen").style.display = "none";
             document.getElementById("nav-bar").style.visibility = "visible";
             document.getElementById("contactInfo").style.visibility = "visible";
-            if(window.innerWidth <= 1000){
+            if(window.innerWidth <= 600){
                 document.getElementById("contactBtn").style.visibility = "visible";
             }
             document.getElementById(`${activePage}Page`).style.visibility = "visible";
