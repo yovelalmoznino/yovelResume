@@ -39,6 +39,10 @@ body {
     right: 30vw;
 }
 
+#phoneNavBar{
+    visibility: hidden;
+}
+
 #nav-bar {
     width: 80vw;
     height: 10vh;
