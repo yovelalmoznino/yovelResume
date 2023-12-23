@@ -326,7 +326,7 @@ body {
     #loadingBar {
         top: 20vh;
         font-size: 6vh;
-        color: black;
+        color: brown;
     }
 
     .card {
@@ -380,7 +380,9 @@ body {
         top: 10vh;
         visibility: hidden;
         font-size: 2vh;
-        padding-top: 10vh;
+        padding-top: 5vh;
+        padding-left: 1vw;
+        padding-right: 1vw;
     }
     .itemContent {
         position: absolute;
@@ -389,6 +391,7 @@ body {
         padding-right: 10vw;
         padding-top: 2.5vh;
         font-size: 1.75vh;
+        top: 0vh;
     }
     #expriencePage,
     #studiesPage,
