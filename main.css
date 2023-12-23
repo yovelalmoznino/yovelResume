@@ -261,7 +261,7 @@ body {
     visibility: hidden;
 }
 
-@media only screen and (min-device-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     #loadingBar {
         font-size: 3vw;
         color: teal;
@@ -269,7 +269,7 @@ body {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media  only screen and (min-device-width: 992px) and (max-device-width:1200) {
+@media  only screen and (min-width: 992px) and (max-width:1200) {
     #loadingBar {
         font-size: 3vw;
         color: yellow;
@@ -278,14 +278,14 @@ body {
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-device-width: 768px) and (max-device-width:992) {
+@media only screen and (min-width: 768px) and (max-width:992) {
     #loadingBar {
         font-size: 3vw;
         color: orange;
     }
 }
 
-@media only screen and (min-device-width: 600px) and (max-device-width: 768px) {
+@media only screen and (min-width: 600px) and (max-width: 768px){
     body {
         overflow: auto;
     }
@@ -320,7 +320,7 @@ body {
 }
 
 
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-width: 600px) {
     body {
         overflow:auto;
     }
