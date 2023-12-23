@@ -3,7 +3,7 @@ let activePage = "aboutMe";
 window.addEventListener("load", () => {
     screen.orientation.addEventListener("change", function(e) {
         document.styleSheets[0].href = "./main.css";
-        if(window.innerWidth <= 600 || (window.innerWidth >= 768 && window.innerWidth <= 992 && screen.orientation == "portrait")){
+        if(!(window.innerWidth <= 600 && screen.orientation.type == "landscape-primary") || ((window.innerWidth >= 768 && window.innerWidth <= 992) && screen.orientation.type == "portrait-primary" )){
             document.getElementById("contactBtn").style.visibility = "visible";
         } else {
             document.getElementById("contactBtn").style.visibility = "hidden";   
@@ -26,7 +26,7 @@ let loading = () => {
             document.getElementById("loadingScreen").style.display = "none";
             document.getElementById("nav-bar").style.visibility = "visible";
             document.getElementById("contactInfo").style.visibility = "visible";
-            if(window.innerWidth <= 600 || (window.innerWidth >= 768 && window.innerWidth <= 992 && screen.orientation == "portrait")){
+            if((window.innerWidth <= 600 && screen.orientation.type == "landscape-primary") || ((window.innerWidth >= 768 && window.innerWidth <= 992) && screen.orientation.type == "portrait-primary" )){
                 document.getElementById("contactBtn").style.visibility = "visible";
             }
             document.getElementById(`${activePage}Page`).style.visibility = "visible";

@@ -60,13 +60,13 @@ body {
     font-size: 1.5vw;
     text-align: center;
     display: inline-block;
-    margin-top: 1.5vh;
     border-top-color: transparent;
     border-bottom-color: transparent;
     border-right-color: black;
     border-left-color: black;
     border-style: solid;
-    padding: 0.5%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
 }
 
 .nav-items:hover {
@@ -323,9 +323,10 @@ Large devices (laptops/desktops, 992px and up)
         color: black;
     }
     .nav-items {
-        font-size: 2.5vh;
+        font-size: 2vh;
         padding-top: 1vh;
     }
+
 
     .itemContent {
         position: absolute;
