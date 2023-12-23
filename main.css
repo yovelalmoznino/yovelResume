@@ -240,6 +240,7 @@ body {
 
 .card-text {
     font-size: 1.5vw;
+    color: aqua;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -301,6 +302,7 @@ body {
     }
     .card-text {
         font-size: 4vh;
+        color: pink;
     }
 }
 
