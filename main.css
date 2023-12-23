@@ -261,7 +261,7 @@ body {
     visibility: hidden;
 }
 
-@media only screen and (min-device-width: 1200px) {
+@media screen and (min-device-width: 1200px) {
     #loadingBar {
         font-size: 3vw;
         color: teal;
@@ -292,7 +292,7 @@ body {
 
     #loadingBar {
         font-size: 3vw;
-        color: purple;
+        color: blue;
     }
 
     #expriencePage {
