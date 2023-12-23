@@ -44,7 +44,7 @@ body {
     width: 79vw;
     height: 10vh;
     background-color: rgba(112, 48, 160, 0.25);
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 21vw;
     visibility: hidden;
@@ -362,5 +362,12 @@ body {
         visibility: hidden;
         font-size: 2vh;
         padding-top: 10vh;
+    }
+    .itemContent {
+        position: absolute;
+        width: 60vw;
+        padding-right: 10vw;
+        padding-top: 5vh;
+        font-size: 1.5vh;
     }
 }
