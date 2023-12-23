@@ -5,6 +5,8 @@ window.addEventListener("load", () => {
         document.styleSheets[0].href = "./main.css";
         if(window.innerWidth <= 600 || (window.innerWidth >= 768 && window.innerWidth <= 992)){
             document.getElementById("contactBtn").style.visibility = "visible";
+        } else {
+            document.getElementById("contactBtn").style.visibility = "hidden";   
         }
     });
     loading();
