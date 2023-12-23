@@ -315,6 +315,7 @@ body {
     .card {
         display: block;
         width: 70vw;
+        height: 80vh;
     }
 
     .accordion-body,
