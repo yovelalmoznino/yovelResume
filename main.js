@@ -6,6 +6,7 @@ window.addEventListener("load", () => {
     contactInfoInit();
     initDegreesClick();
     initCloseBtn();
+    alert(window.innerWidth);
 });
 
 let loading = () => {
