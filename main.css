@@ -305,11 +305,12 @@ body {
     .card {
         display: inline-block;
         width: 30vw;
+        height: 60vh;
     }
     .itemContent {
         position: absolute;
         width: 60vw;
-        height: 70vh;
+        height: 80vh;
         padding-right: 10vw;
         padding-top: 5vh;
         font-size: 1.5vw;
