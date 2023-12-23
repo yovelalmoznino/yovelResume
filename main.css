@@ -341,7 +341,7 @@ body {
 
     #loadingBar {
         font-size: 3vw;
-        color: blue;
+        color: black;
     }
 
     #expriencePage {
@@ -354,7 +354,7 @@ body {
     .card {
         display: inline-block;
         width: 30vw;
-        height: 120vh;
+        height: max-content;
         top: 15vh;
     }
     .itemContent {
@@ -362,7 +362,7 @@ body {
         width: 60vw;
         height: 100vh;
         padding-right: 10vw;
-        padding-top: 4vh;
+        padding-top: 3vh;
         font-size: 1vw;
     }
 
