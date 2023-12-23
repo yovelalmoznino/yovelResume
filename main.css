@@ -278,8 +278,40 @@ Large devices (laptops/desktops, 992px and up)
 }*/
 
 
+@media only screen and (min-width: 768px) and (max-width:992px) and (orientation: landscape){
+    body {
+        overflow: auto;
+    }
+
+    #loadingBar {
+        font-size: 3vw;
+        color: black;
+    }
+
+    #expriencePage {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        display: inline-block;
+        width: 30vw;
+        height: max-content;
+        top: 15vh;
+    }
+    .itemContent {
+        position: absolute;
+        width: 60vw;
+        height: 100vh;
+        padding-right: 10vw;
+        padding-top: 3vh;
+        font-size: 1vw;
+    }
+}
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width:992px){
+@media only screen and (min-width: 768px) and (max-width:992px) and (orientation: portrait){
     #loadingBar {
         font-size: 3vw;
         color: black;
