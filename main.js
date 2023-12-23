@@ -65,18 +65,22 @@ let contactInfoInit = () => {
 
 let initDegreesClick = () => {
     document.getElementById("idf").addEventListener("click", () => {
+        document.getElementById("idfPdf").src = "https://drive.google.com/file/d/13j9QZAXabKxk30nJ-dD34IM2ihuzzwE9/preview";
         document.getElementById("pdfView").style.visibility = "visible";
         document.getElementById("idfPdf").style.visibility = " visible";
     });
     document.getElementById("magshimim").addEventListener("click", () => {
+        document.getElementById("magshimimPdf").src = "https://drive.google.com/file/d/1ePoNerPD9eCPU4Tmush9txodvchzan78/preview";
         document.getElementById("pdfView").style.visibility = "visible";
         document.getElementById("magshimimPdf").style.visibility = " visible";
     });
     document.getElementById("project").addEventListener("click", () => {
+        document.getElementById("projectPdf").src = "https://drive.google.com/file/d/1d6V_Dhz5WZ_T4SX2zmqC1wzhdtTUsOpv/preview";
         document.getElementById("pdfView").style.visibility = "visible";
         document.getElementById("projectPdf").style.visibility = " visible";
     });
     document.getElementById("bagrut").addEventListener("click", () => {
+        document.getElementById("bagrutPdf").src = "https://drive.google.com/file/d/1vxepqEZkFQ4XiKKbjn7Ik6acVr_CjmRL/preview";
         document.getElementById("pdfView").style.visibility = "visible";
         document.getElementById("bagrutPdf").style.visibility = " visible";
     });
@@ -88,6 +92,7 @@ let initCloseBtn = () => {
         let pdfs = ["idf", "magshimim", "project", "bagrut"];
         for (let i = 0; i < pdfs.length; i++) {
             document.getElementById(`${pdfs[i]}Pdf`).style.visibility = "hidden";
+            document.getElementById(`${pdfs[i]}Pdf`).src = "";
         }
     })
 }
