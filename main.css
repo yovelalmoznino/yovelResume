@@ -305,7 +305,7 @@ body {
     .card {
         display: inline-block;
         width: 30vw;
-        height: 100vh;
+        height: 120vh;
         top: 15vh;
     }
     .itemContent {
