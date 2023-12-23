@@ -346,9 +346,11 @@ body {
     #contactBtn {
         font-size: 1.5vh;
         position: fixed;
-        top: 30vh;
-        right: 0;
+        top: 35vh;
+        right: 1.5vw;
         background-color: pink;
+        border-color: pink;
+        width: 17vw;
     }
     .contentPage {
         height: 80vh;
