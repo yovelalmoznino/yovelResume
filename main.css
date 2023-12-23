@@ -326,7 +326,7 @@ body {
     #loadingBar {
         top: 20vh;
         font-size: 6vh;
-        color: pink;
+        color: black;
     }
 
     .card {
@@ -387,8 +387,8 @@ body {
         width: 60vw;
         height: 70vh;
         padding-right: 10vw;
-        padding-top: 5vh;
-        font-size: 2vh;
+        padding-top: 2.5vh;
+        font-size: 1.75vh;
     }
     #expriencePage,
     #studiesPage,
