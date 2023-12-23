@@ -48,19 +48,19 @@ let contactInfoInit = () => {
 
 let initDegreesClick = () => {
     document.getElementById("idf").addEventListener("click", ()=>{
-        document.getElementById("pdf").src = "./assets/media/idf.pdf&embedded=true";
+        document.getElementById("pdf").src = "https://drive.google.com/file/d/13j9QZAXabKxk30nJ-dD34IM2ihuzzwE9/preview";
         setTimeout(()=>{
             document.getElementById("pdfView").style.visibility = " visible";
         },100);
     });
     document.getElementById("magshimim").addEventListener("click", ()=>{
-        document.getElementById("pdf").src = "./assets/media/magshimim.pdf";
+        document.getElementById("pdf").src = "https://drive.google.com/file/d/1ePoNerPD9eCPU4Tmush9txodvchzan78/preview";
         setTimeout(()=>{
             document.getElementById("pdfView").style.visibility = " visible";
         },100);
     });
     document.getElementById("project").addEventListener("click", ()=>{
-        document.getElementById("pdf").src = "./assets/media/project.pdf";
+        document.getElementById("pdf").src = "https://drive.google.com/file/d/1d6V_Dhz5WZ_T4SX2zmqC1wzhdtTUsOpv/preview";
         setTimeout(()=>{
             document.getElementById("pdfView").style.visibility = " visible";
         },100);
