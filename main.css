@@ -320,7 +320,8 @@ body {
     }
 
     .nav-items {
-        font-size: 2vh;
+        font-size: 1.5vh;
+        padding-top: 1.5vh;
     }
 
     #profilePic {
@@ -355,9 +356,9 @@ body {
 
     .contact {
         font-family: Heebo-Black;
-        font-size: 2vh;
+        font-size: 1.5vh;
         position: fixed;
-        right: 5vw;
+        right: 2.5vw;
     }
 
     #location {

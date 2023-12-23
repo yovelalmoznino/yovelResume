@@ -48,7 +48,7 @@ let contactInfoInit = () => {
 
 let initDegreesClick = () => {
     document.getElementById("idf").addEventListener("click", ()=>{
-        document.getElementById("pdf").src = "./assets/media/idf.pdf";
+        document.getElementById("pdf").src = "./assets/media/idf.pdf&embedded=true";
         setTimeout(()=>{
             document.getElementById("pdfView").style.visibility = " visible";
         },100);
@@ -66,7 +66,7 @@ let initDegreesClick = () => {
         },100);
     });
     document.getElementById("bagrut").addEventListener("click", ()=>{
-        document.getElementById("pdf").src = "./assets/media/bagrut.pdf";
+        document.getElementById("pdf").src = "https://drive.google.com/file/d/1vxepqEZkFQ4XiKKbjn7Ik6acVr_CjmRL/preview";
         setTimeout(()=>{
             document.getElementById("pdfView").style.visibility = " visible";
         },100);
