@@ -296,11 +296,18 @@ body {
         padding-top: 4vh;
         font-size: 2vh;
     }
+    .contentPage {
+        visibility: hidden;
+        font-size: 2vh;
+        padding-top: 5vh;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
     .card {
         display: inline-block;
         width: 30vw;
-        height: 90vh;
-        top: 10vh;
+        height: 70vh;
+        top: 5vh;
     }
     
     .accordion-body,
@@ -331,6 +338,10 @@ body {
         right: 8vw;
         top: 3vh;
         height: 5vh;
+    }
+    #studiesPage,
+    #volunteeringPage {
+        top: 10vh;
     }
 }
 
