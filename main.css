@@ -326,7 +326,13 @@ Large devices (laptops/desktops, 992px and up)
         font-size: 2vh;
         margin-top: 0.5vh;
     }
-
+    #profilePic {
+        height: 10vh;
+        width: 15vw;
+        position: absolute;
+        right: 2.5vw;
+        top: 25vh;
+    }
 
     .itemContent {
         position: absolute;
@@ -449,7 +455,7 @@ Large devices (laptops/desktops, 992px and up)
     }
 
     #profilePic {
-        height: 15vh;
+        height: 10vh;
         width: 15vw;
         position: absolute;
         right: 2.5vw;
