@@ -398,7 +398,10 @@ Large devices (laptops/desktops, 992px and up)
         font-size: 3vw;
         color: black;
     }
-
+    #volunteeringPage,
+    #expriencePage {
+        overflow: scroll;
+    }
     #expriencePage {
         display: flex;
         flex-direction: column;
@@ -512,6 +515,7 @@ Large devices (laptops/desktops, 992px and up)
         top: 10vh;
     }
 
+    #volunteeringPage,
     #expriencePage {
         overflow: scroll;
     }
