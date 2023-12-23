@@ -159,6 +159,7 @@ body {
 .card {
     display: inline-block;
     width: 20vw;
+    height: 90vh;
 }
 
 #carouselExampleControls {
