@@ -107,6 +107,11 @@ body {
     top: 45vh;
 }
 
+#mailModal,
+#phoneNumberModal{
+    color: #002060;
+    text-decoration: underline;
+}
 #mail {
     top: 56vh;
     color: #002060;
@@ -117,6 +122,8 @@ body {
     top: 55vh;
 }
 
+#phoneNumberModal:hover,
+#mailModal:hover,
 #phoneNumber:hover,
 #mail:hover {
     cursor: pointer;

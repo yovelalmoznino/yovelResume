@@ -46,7 +46,13 @@ let contactInfoInit = () => {
     });
     document.getElementById("phoneNumber").addEventListener("click", () => {
         window.open("https://wa.me/+972508582003", "_blank");
-    })
+    });
+    document.getElementById("mailModal").addEventListener("click", () => {
+        window.open("https://mail.google.com/mail/?view=cm&fs=1&to=y.almoznino23@gmail.com", "_blank");
+    });
+    document.getElementById("phoneNumberModal").addEventListener("click", () => {
+        window.open("https://wa.me/+972508582003", "_blank");
+    });
 }
 
 let initDegreesClick = () => {
