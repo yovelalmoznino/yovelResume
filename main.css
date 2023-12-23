@@ -243,7 +243,7 @@ body {
 
 #closeBtn {
     position: absolute;
-    right: 10vw;
+    right: 8vw;
     top: 5vh;
     height: 10vh;
 }
@@ -394,5 +394,11 @@ body {
     #studiesPage,
     #volunteeringPage {
         top: 10vh;
+    }
+    #closeBtn {
+        position: absolute;
+        right: 8vw;
+        top: 3vh;
+        height: 5vh;
     }
 }
