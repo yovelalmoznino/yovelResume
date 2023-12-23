@@ -306,7 +306,7 @@ body {
         display: inline-block;
         width: 30vw;
         height: 120vh;
-        top: 15vh;
+        top: 10vh;
     }
     .itemContent {
         position: absolute;
