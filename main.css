@@ -40,10 +40,6 @@ body {
     right: 30vw;
 }
 
-#phoneNavBar {
-    visibility: hidden;
-}
-
 #nav-bar {
     width: 80vw;
     height: 10vh;
@@ -253,6 +249,10 @@ body {
     font-size: 1.5vw;
 }
 
+#contactBtn {
+    visibility: hidden;
+}
+
 @media only screen and (min-width: 1200px) {
     #loadingBar {
         font-size: 3vw;
@@ -322,7 +322,7 @@ body {
     }
 
     .nav-items {
-        font-size: 1.5vh;
+        font-size: 2vh;
         padding-top: 1.5vh;
     }
 
@@ -365,5 +365,8 @@ body {
 
     #location {
         top: 66vh;
+    }
+    #contactBtn {
+        visibility: visible;
     }
 }

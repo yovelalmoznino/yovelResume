@@ -27,8 +27,28 @@
         <p id="volunteering" class="nav-items">התנדבויות</p>
         </span>
     </div>
-    <div id="phoneNavBar"></div>
+    <div class="modal" tabindex="3" id="contactModal">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">פרטי קשר</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>0508582003</p>
+                <p>y.almoznino23@gmail.com</p>
+                <p>מגדל העמק</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">סגור</button>
+            </div>
+          </div>
+        </div>
+      </div>
     <span id="contactInfo">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal" id="contactBtn">
+            לפרטי קשר לחצו כאן
+          </button>
         <img src="./assets/media/profilePic.png" id="profilePic" />
         <img src="./assets/media/phoneIcon.svg" class="icons" id="phoneIcon" />
         <p id="phoneNumber" class="contact">0508582003</p>
