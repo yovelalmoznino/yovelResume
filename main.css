@@ -393,9 +393,6 @@ Large devices (laptops/desktops, 992px and up)
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px){
-    body {
-        overflow: auto;
-    }
 
     #loadingBar {
         font-size: 3vw;
@@ -429,8 +426,14 @@ Large devices (laptops/desktops, 992px and up)
 
 
 @media only screen and (max-width: 600px) {
+    html {
+        height: 100vh;
+        width: 100vw;
+    }
     body {
-        overflow:auto;
+        height: 100%;
+        width: 100%;
+        overflow:hidden;
     }
 
     #loadingBar {
@@ -507,6 +510,10 @@ Large devices (laptops/desktops, 992px and up)
     #studiesPage,
     #volunteeringPage {
         top: 10vh;
+    }
+
+    #expriencePage {
+        overflow: scroll;
     }
     #closeBtn {
         position: absolute;
