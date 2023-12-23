@@ -344,7 +344,6 @@ body {
         visibility: hidden;
     }
     #contactBtn {
-        visibility: visible;
         font-size: 1.5vh;
         position: fixed;
         top: 30vh;
