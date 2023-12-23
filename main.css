@@ -322,7 +322,7 @@ body {
     }
 
     .nav-items {
-        font-size: 2.5vh;
+        font-size: 2vh;
         padding-top: 1.5vh;
     }
 
@@ -345,6 +345,11 @@ body {
     }
     #contactBtn {
         visibility: visible;
+        font-size: 1.5vh;
+        position: fixed;
+        top: 30vh;
+        right: 0;
+        background-color: pink;
     }
     .contentPage {
         height: 80vh;
