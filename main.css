@@ -283,6 +283,50 @@ body {
         font-size: 3vw;
         color: orange;
     }
+    .itemContent {
+        position: absolute;
+        width: 60vw;
+        height: 100vh;
+        padding-right: 10vw;
+        padding-top: 4vh;
+        font-size: 2vh;
+    }
+    .card {
+        display: inline-block;
+        width: 30vw;
+        height: 90vh;
+        top: 10vh;
+    }
+    
+    .accordion-body,
+    .card-text {
+        font-size: 2vh;
+    }
+    .icons {
+        visibility: hidden;
+    }
+
+    #mail,
+    #location,
+    #phoneNumber {
+        visibility: hidden;
+    }
+    #contactBtn {
+        font-size: 1.5vh;
+        position: fixed;
+        top: 45vh;
+        right: 1.5vw;
+        background-color: pink;
+        border-color: pink;
+        color: black;
+        width: 17vw;
+    }
+    #closeBtn {
+        position: absolute;
+        right: 8vw;
+        top: 3vh;
+        height: 5vh;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px){
@@ -316,6 +360,7 @@ body {
         padding-top: 4vh;
         font-size: 1vw;
     }
+
 
 }
 
