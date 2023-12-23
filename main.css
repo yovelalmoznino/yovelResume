@@ -375,9 +375,10 @@ body {
     .itemContent {
         position: absolute;
         width: 60vw;
+        height: 70vh;
         padding-right: 10vw;
         padding-top: 5vh;
-        font-size: 1.5vh;
+        font-size: 2vh;
     }
     .activePage {
         color: #B4C7E7;
