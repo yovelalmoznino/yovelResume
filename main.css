@@ -292,7 +292,7 @@ body {
 
     #loadingBar {
         font-size: 3vw;
-        color: blueviolet;
+        color: blue;
     }
 
     #expriencePage {
@@ -313,7 +313,7 @@ body {
         width: 60vw;
         height: 100vh;
         padding-right: 10vw;
-        padding-top: 5vh;
+        padding-top: 4vh;
         font-size: 1vw;
     }
 
@@ -328,7 +328,7 @@ body {
     #loadingBar {
         top: 20vh;
         font-size: 6vh;
-        color: burlywood;
+        color: black;
     }
 
     .card {
