@@ -287,7 +287,7 @@ body {
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
     body {
-        overflow: visible;
+        overflow: auto;
     }
 
     #loadingBar {
@@ -304,7 +304,17 @@ body {
 
     .card {
         display: inline-block;
+        width: 30vw;
     }
+    .itemContent {
+        position: absolute;
+        width: 60vw;
+        height: 70vh;
+        padding-right: 10vw;
+        padding-top: 5vh;
+        font-size: 1.5vw;
+    }
+
 }
 
 
