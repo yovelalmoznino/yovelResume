@@ -209,7 +209,7 @@ body {
     text-decoration: underline;
 }
 
-#mpl:hover #project:hover,
+#mpl:hover, #project:hover,
 #bagrut:hover,
 #magshimim:hover,
 #idf:hover {
@@ -227,6 +227,16 @@ body {
     z-index: 2;
 }
 
+.iframeView{
+    visibility: hidden;
+    height: 80vh;
+    width: 70vw;
+    position: absolute;
+    right: 15vw;
+    top: 10vh;
+    z-index: 2;
+}
+
 #closeBtn {
     position: absolute;
     right: 10vw;
@@ -236,14 +246,6 @@ body {
 
 #closeBtn:hover {
     cursor: pointer;
-}
-
-#pdf {
-    position: absolute;
-    height: 90vh;
-    width: 60vw;
-    top: 5vh;
-    right: 20vw;
 }
 
 .accordion-body,

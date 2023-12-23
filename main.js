@@ -48,33 +48,29 @@ let contactInfoInit = () => {
 
 let initDegreesClick = () => {
     document.getElementById("idf").addEventListener("click", ()=>{
-        document.getElementById("pdf").src = "https://drive.google.com/file/d/13j9QZAXabKxk30nJ-dD34IM2ihuzzwE9/preview";
-        setTimeout(()=>{
-            document.getElementById("pdfView").style.visibility = " visible";
-        },100);
+        document.getElementById("pdfView").style.visibility = "visible";
+            document.getElementById("idfPdf").style.visibility = " visible";
     });
     document.getElementById("magshimim").addEventListener("click", ()=>{
-        document.getElementById("pdf").src = "https://drive.google.com/file/d/1ePoNerPD9eCPU4Tmush9txodvchzan78/preview";
-        setTimeout(()=>{
-            document.getElementById("pdfView").style.visibility = " visible";
-        },100);
+        document.getElementById("pdfView").style.visibility = "visible";
+            document.getElementById("magshimimPdf").style.visibility = " visible";
     });
     document.getElementById("project").addEventListener("click", ()=>{
-        document.getElementById("pdf").src = "https://drive.google.com/file/d/1d6V_Dhz5WZ_T4SX2zmqC1wzhdtTUsOpv/preview";
-        setTimeout(()=>{
-            document.getElementById("pdfView").style.visibility = " visible";
-        },100);
+        document.getElementById("pdfView").style.visibility = "visible";
+            document.getElementById("projectPdf").style.visibility = " visible";
     });
     document.getElementById("bagrut").addEventListener("click", ()=>{
-        document.getElementById("pdf").src = "https://drive.google.com/file/d/1vxepqEZkFQ4XiKKbjn7Ik6acVr_CjmRL/preview";
-        setTimeout(()=>{
-            document.getElementById("pdfView").style.visibility = " visible";
-        },100);
+        document.getElementById("pdfView").style.visibility = "visible";
+            document.getElementById("bagrutPdf").style.visibility = " visible";
     });
 }
 
 let initCloseBtn = () => {
     document.getElementById("closeBtn").addEventListener("click", ()=>{
         document.getElementById("pdfView").style.visibility = "hidden";
+        let pdfs = ["idf", "magshimim", "project", "bagrut"];
+        for(let i = 0; i<pdfs.length; i++){
+            document.getElementById(`${pdfs[i]}Pdf`).style.visibility = "hidden";
+        }
     })
 }
