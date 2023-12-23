@@ -1,6 +1,9 @@
 const PAGES = ["aboutMe", "army", "exprience", "studies", "volunteering"];
 let activePage = "aboutMe";
 window.addEventListener("load", () => {
+    window.addEventListener("resize", ()=>{
+        location.reload();
+    });
     loading();
     navBarInit();
     contactInfoInit();
