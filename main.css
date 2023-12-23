@@ -182,7 +182,7 @@ body {
 #aboutMePage,
 #armyPage,
 .carouselItem {
-    background-color: #FFFFB3;
+    background-color: transparent;
     border-radius: 20px;
     height: 70vh;
     width: 70vw;
