@@ -283,6 +283,11 @@ body {
         font-size: 3vw;
         color: orange;
     }
+    .nav-items {
+        font-size: 2vh;
+        padding-top: 1vh;
+    }
+
     .itemContent {
         position: absolute;
         width: 60vw;
