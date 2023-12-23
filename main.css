@@ -322,7 +322,7 @@ body {
     }
 
     .nav-items {
-        font-size: 2vh;
+        font-size: 2.5vh;
         padding-top: 1.5vh;
     }
 
@@ -345,5 +345,15 @@ body {
     }
     #contactBtn {
         visibility: visible;
+    }
+    .contentPage {
+        height: 80vh;
+        width: 70vw;
+        position: absolute;
+        right: 25vw;
+        top: 10vh;
+        visibility: hidden;
+        font-size: 1.5vw;
+        padding-top: 10vh;
     }
 }
