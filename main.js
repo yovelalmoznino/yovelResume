@@ -69,11 +69,13 @@ let initDegreesClick = () => {
             document.getElementById("idfPdf").style.visibility = " visible";
     });
     document.getElementById("magshimim").addEventListener("click", ()=>{
+        alert("magsimim");
         document.getElementById("pdfView").style.visibility = "visible";
             document.getElementById("magshimimPdf").style.visibility = " visible";
     });
     document.getElementById("project").addEventListener("click", ()=>{
         document.getElementById("pdfView").style.visibility = "visible";
+        alert("project")
             document.getElementById("projectPdf").style.visibility = " visible";
     });
     document.getElementById("bagrut").addEventListener("click", ()=>{
