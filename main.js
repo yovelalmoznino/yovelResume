@@ -1,7 +1,7 @@
 const PAGES = ["aboutMe", "army", "exprience", "studies", "volunteering"];
 let activePage = "aboutMe";
 window.addEventListener("load", () => {
-    window.addEventListener("resize", ()=>{
+    screen.orientation.addEventListener("change", function(e) {
         location.reload();
     });
     loading();
