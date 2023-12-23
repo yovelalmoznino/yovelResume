@@ -2,6 +2,7 @@
     font-family: Heebo;
     src: url(./assets/fonts/Heebo-Regular.ttf);
 }
+
 @font-face {
     font-family: Heebo-Black;
     src: url(./assets/fonts/Heebo-Black.ttf);
@@ -39,14 +40,14 @@ body {
     right: 30vw;
 }
 
-#phoneNavBar{
+#phoneNavBar {
     visibility: hidden;
 }
 
 #nav-bar {
     width: 80vw;
     height: 10vh;
-    background-color: rgba(112,48,160, 0.25);
+    background-color: rgba(112, 48, 160, 0.25);
     position: fixed;
     top: 0;
     right: 20vw;
@@ -72,7 +73,7 @@ body {
 }
 
 .activePage {
-    color: #002060 ;
+    color: #002060;
 }
 
 
@@ -80,7 +81,7 @@ body {
     height: 100vh;
     width: 20vw;
     visibility: hidden;
-    background-color: rgba(112,48,160, 0.25);
+    background-color: rgba(112, 48, 160, 0.25);
     position: fixed;
     right: 0vw;
     top: 0vh;
@@ -100,26 +101,28 @@ body {
     right: 1vw;
 }
 
-#phoneNumber{
+#phoneNumber {
     top: 46vh;
     color: #002060;
     text-decoration: underline;
 }
+
 #phoneIcon {
     top: 45vh;
 }
 
-#mail{
+#mail {
     top: 56vh;
     color: #002060;
     text-decoration: underline;
 }
+
 #mailIcon {
     top: 55vh;
 }
 
 #phoneNumber:hover,
-#mail:hover{
+#mail:hover {
     cursor: pointer;
 }
 
@@ -130,9 +133,10 @@ body {
     right: 5vw;
 }
 
-#location{
+#location {
     top: 66vh;
 }
+
 #locationIcon {
     top: 65vh;
 }
@@ -193,34 +197,33 @@ body {
 }
 
 .years {
-    color:#404040;
+    color: #404040;
 }
 
 #mpl,
 #project,
 #bagrut,
 #magshimim,
-#idf{
+#idf {
     color: #002060;
     text-decoration: underline;
 }
 
-#mpl:hover
-#project:hover,
+#mpl:hover #project:hover,
 #bagrut:hover,
 #magshimim:hover,
 #idf:hover {
     cursor: pointer;
 }
 
-#pdfView{
+#pdfView {
     position: absolute;
     top: 0;
     right: 0;
     visibility: hidden;
     height: 100vh;
     width: 100vw;
-    background-color: rgba(32,56,100, 0.7);
+    background-color: rgba(32, 56, 100, 0.7);
     z-index: 2;
 }
 
@@ -230,7 +233,8 @@ body {
     top: 5vh;
     height: 10vh;
 }
-#closeBtn:hover{
+
+#closeBtn:hover {
     cursor: pointer;
 }
 
@@ -255,7 +259,7 @@ body {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width:1200){
+@media only screen and (min-width: 992px) and (max-width:1200) {
     #loadingBar {
         font-size: 3vw;
         color: yellow;
@@ -264,27 +268,30 @@ body {
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width:992){
+@media only screen and (min-width: 768px) and (max-width:992) {
     #loadingBar {
         font-size: 3vw;
         color: orange;
     }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 768px){
+@media only screen and (min-width: 600px) and (max-width: 768px) {
     body {
         overflow: visible;
     }
+
     #loadingBar {
         font-size: 3vw;
         color: red;
     }
+
     #expriencePage {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+
     .card {
         display: inline-block;
     }
@@ -295,22 +302,65 @@ body {
     body {
         overflow: visible;
     }
+
     #loadingBar {
         top: 20vh;
         font-size: 6vh;
         color: pink;
     }
+
     .card {
         display: block;
         width: 70vw;
     }
+
     .accordion-body,
     .card-text {
         font-size: 2vh;
     }
+
     .nav-items {
         font-size: 2vh;
     }
+
+    #profilePic {
+        height: 15vh;
+        width: 15vw;
+        position: absolute;
+        right: 2.5vw;
+        top: 15vh;
+    }
+
+    .icons {
+        visibility: hidden;
+    }
+
+    #phoneNumber {
+        top: 46vh;
+        color: #002060;
+        text-decoration: underline;
+    }
+
+    #mail {
+        top: 56vh;
+        color: #002060;
+        text-decoration: underline;
+    }
+
+
+    #phoneNumber:hover,
+    #mail:hover {
+        cursor: pointer;
+    }
+
+    .contact {
+        font-family: Heebo-Black;
+        font-size: 2vh;
+        position: fixed;
+        right: 5vw;
+    }
+
+    #location {
+        top: 66vh;
+    }
 }
-
-
