@@ -8,6 +8,7 @@ window.addEventListener("load", () => {
         } else {
             document.getElementById("contactBtn").style.visibility = "hidden";
         }
+        window.scrollTo(0, 0);
     });
     loading();
     navBarInit();
