@@ -417,6 +417,9 @@ Large devices (laptops/desktops, 992px and up)
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+    #volunteeringPage {
+        height: 70vh;
+    }
 
     .card {
         display: inline-block;
