@@ -405,7 +405,7 @@ Large devices (laptops/desktops, 992px and up)
     #volunteeringPage,
     #expriencePage {
         overflow: scroll;
-        z-index: 2;
+        z-index: -2;
     }
     #expriencePage {
         display: flex;
@@ -417,7 +417,7 @@ Large devices (laptops/desktops, 992px and up)
     .card {
         display: inline-block;
         width: 30vw;
-        height: max-content;
+        height: 100vh;
         top: 15vh;
     }
     .itemContent {
