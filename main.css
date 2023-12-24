@@ -417,7 +417,7 @@ Large devices (laptops/desktops, 992px and up)
     .card {
         display: inline-block;
         width: 30vw;
-        height: 100vh;
+        height: max-content;
         top: 15vh;
     }
     .itemContent {
