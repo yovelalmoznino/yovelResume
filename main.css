@@ -425,7 +425,7 @@ Large devices (laptops/desktops, 992px and up)
         width: 60vw;
         height: 100vh;
         padding-right: 10vw;
-        padding-top: 3vh;
+        padding-top: 1.5vh;
         font-size: 1vw;
     }
     .nav-items {
