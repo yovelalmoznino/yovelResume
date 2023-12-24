@@ -398,6 +398,10 @@ Large devices (laptops/desktops, 992px and up)
 
 @media only screen and (min-width: 600px) and (max-width: 768px){
 
+    #nav-bar {
+        z-index: 4;
+    }
+
     #loadingBar {
         font-size: 3vw;
         color: black;
