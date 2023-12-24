@@ -405,6 +405,7 @@ Large devices (laptops/desktops, 992px and up)
     #volunteeringPage,
     #expriencePage {
         overflow: scroll;
+        z-index: 2;
     }
     #expriencePage {
         display: flex;
