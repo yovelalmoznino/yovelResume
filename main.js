@@ -3,7 +3,23 @@ let activePage = "aboutMe";
 window.addEventListener("load", () => {
     screen.orientation.addEventListener("change", function (e) {
         document.styleSheets[0].href = "./main.css";
-        if (screen.orientation.type == "portrait-primary") {
+        if ((screen.orientation.type == "portrait-primary") || (screen.orientation.type == "landscape-primary" && window.innerWidth <= 600)) {
+            document.getElementById("contactBtn").style.visibility = "visible";
+        } else {
+            document.getElementById("contactBtn").style.visibility = "hidden";
+        }
+        if((activePage === "exprience" || activePage === "volunteering") && (window.innerWidth >= 600 && window.innerWidth <= 992) && screen.orientation.type == "landscape-primary"){
+            document.getElementById("body").style.overflowY = "scroll";
+        } else {
+            document.getElementById("body").style.overflow = "hidden";
+        }
+        window.scrollTo(0, 0);
+    });
+    window.addEventListener("resize", ()=>{
+        if(window.innerWidth >= 992){
+            document.getElementById("body").style.overflow = "hidden";
+        }
+        if(window.innerWidth <= 600){
             document.getElementById("contactBtn").style.visibility = "visible";
         } else {
             document.getElementById("contactBtn").style.visibility = "hidden";
@@ -27,7 +43,7 @@ let loading = () => {
             document.getElementById("loadingScreen").style.display = "none";
             document.getElementById("nav-bar").style.visibility = "visible";
             document.getElementById("contactInfo").style.visibility = "visible";
-            if (screen.orientation.type == "portrait-primary") {
+            if ((screen.orientation.type == "portrait-primary") || (screen.orientation.type == "landscape-primary" && window.innerWidth <= 600)) {
                 document.getElementById("contactBtn").style.visibility = "visible";
             }
             document.getElementById(`${activePage}Page`).style.visibility = "visible";
@@ -48,7 +64,7 @@ let pageSelected = (e) => {
     document.getElementById(activePage).classList.add("activePage");
     document.getElementById(`${activePage}Page`).style.visibility = "visible";
     if((activePage === "exprience" || activePage === "volunteering") && (window.innerWidth >= 600 && window.innerWidth <= 992) && screen.orientation.type == "landscape-primary"){
-        document.getElementById("body").style.overflow = "scroll";
+        document.getElementById("body").style.overflowY = "scroll";
     } else {
         document.getElementById("body").style.overflow = "hidden";
         window.scrollTo(0, 0);
