@@ -50,6 +50,7 @@ let pageSelected = (e) => {
         document.getElementById("body").style.overflow = "scroll";
     } else {
         document.getElementById("body").style.overflow = "hidden";
+        window.scrollTo(0, 0);
     }
 }
 
