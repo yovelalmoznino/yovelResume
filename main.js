@@ -46,6 +46,11 @@ let pageSelected = (e) => {
     activePage = e.target.id;
     document.getElementById(activePage).classList.add("activePage");
     document.getElementById(`${activePage}Page`).style.visibility = "visible";
+    if((activePage === "exprience" || activePage === "volunteering") && (window.innerWidth >= 600 && window.innerWidth <= 992)){
+        document.getElementById("body").style.overflow = "scroll";
+    } else {
+        document.getElementById("body").style.overflow = "hidden";
+    }
 }
 
 let contactInfoInit = () => {
